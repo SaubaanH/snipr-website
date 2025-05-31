@@ -43,9 +43,9 @@ export default function FAQ() {
             <AccordionItem value="item-3">
               <AccordionTrigger>Is Snipr free to use?</AccordionTrigger>
               <AccordionContent>
-                Yes, Snipr is completely free to download and use. We offer a premium subscription with additional
-                features like unlimited cart analyses and advanced savings reports, but the core functionality is
-                available at no cost.
+                Yes, Snipr offers a free tier that includes 10 AI scans per month and basic features. For more frequent
+                shoppers, we offer Plus ($3.99/month) with 25 AI scans and additional features, and Pro ($7.99/month)
+                with unlimited AI scans and our complete feature set.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">

@@ -20,10 +20,8 @@ export default function Hero() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button asChild size="lg" className="gap-1" id="get-started">
-                <Link href="#get-started">
-                  Get Started <ArrowRight className="h-4 w-4" />
-                </Link>
+              <Button disabled size="lg" className="gap-1">
+                Coming Soon <ArrowRight className="h-4 w-4" />
               </Button>
               <Button asChild variant="outline" size="lg">
                 <Link href="#how-it-works">Learn More</Link>

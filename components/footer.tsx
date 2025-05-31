@@ -8,7 +8,13 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/images/snipr-logo.png" alt="Snipr Logo" width={160} height={50} className="h-10 w-auto" />
+              <Image
+                src="/images/snipr-logo-black.png"
+                alt="Snipr Logo"
+                width={400}
+                height={130}
+                className="h-24 w-auto"
+              />
             </Link>
             <p className="text-sm text-muted-foreground">
               The modern way to find and save on deals from your favorite stores.

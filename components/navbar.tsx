@@ -16,9 +16,9 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-20 items-center justify-between">
+      <div className="container flex h-28 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/images/snipr-logo.png" alt="Snipr Logo" width={180} height={60} className="h-12 w-auto" />
+          <Image src="/images/snipr-logo-black.png" alt="Snipr Logo" width={480} height={160} className="h-32 w-auto" />
         </Link>
 
         <nav className="hidden md:flex gap-6">
@@ -41,8 +41,8 @@ export default function Navbar() {
 
         <div className="flex items-center gap-4">
           <ThemeToggle />
-          <Button asChild className="hidden md:inline-flex">
-            <Link href="#get-started">Get Started</Link>
+          <Button disabled className="hidden md:inline-flex">
+            Coming Soon
           </Button>
           <Button variant="outline" size="icon" className="md:hidden" onClick={toggleMenu}>
             <Menu className="h-5 w-5" />
@@ -54,9 +54,15 @@ export default function Navbar() {
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="fixed inset-0 z-50 bg-background md:hidden">
-          <div className="container flex h-20 items-center justify-between">
+          <div className="container flex h-28 items-center justify-between">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/images/snipr-logo.png" alt="Snipr Logo" width={180} height={60} className="h-12 w-auto" />
+              <Image
+                src="/images/snipr-logo-black.png"
+                alt="Snipr Logo"
+                width={480}
+                height={160}
+                className="h-32 w-auto"
+              />
             </Link>
             <Button variant="outline" size="icon" onClick={toggleMenu}>
               <X className="h-5 w-5" />
@@ -95,8 +101,8 @@ export default function Navbar() {
             >
               Contact
             </Link>
-            <Button asChild className="mt-4" onClick={toggleMenu}>
-              <Link href="#get-started">Get Started</Link>
+            <Button disabled className="mt-4" onClick={toggleMenu}>
+              Coming Soon
             </Button>
           </nav>
         </div>

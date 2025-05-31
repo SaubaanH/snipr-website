@@ -17,7 +17,7 @@ export default function Features() {
             <div className="rounded-full bg-primary/10 p-3">
               <Camera className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold">AI-Powered Price Matching</h3>
+            <h3 className="text-xl font-bold text-center">AI-Powered Price Matching</h3>
             <p className="text-center text-muted-foreground">
               Take a photo of your shopping cart and our AI will find where you can price match items nearby.
             </p>
@@ -26,7 +26,7 @@ export default function Features() {
             <div className="rounded-full bg-primary/10 p-3">
               <Scan className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold">Smart Scanning</h3>
+            <h3 className="text-xl font-bold text-center">Smart Scanning</h3>
             <p className="text-center text-muted-foreground">
               Scan product barcodes for instant price comparisons across all nearby stores.
             </p>
@@ -35,7 +35,7 @@ export default function Features() {
             <div className="rounded-full bg-primary/10 p-3">
               <Map className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold">Nearby Price Matches</h3>
+            <h3 className="text-xl font-bold text-center">Nearby Price Matches</h3>
             <p className="text-center text-muted-foreground">
               Instantly see which nearby stores have better prices on the items in your cart.
             </p>
@@ -44,7 +44,7 @@ export default function Features() {
             <div className="rounded-full bg-primary/10 p-3">
               <Banknote className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold">Price Comparison</h3>
+            <h3 className="text-xl font-bold text-center">Price Comparison</h3>
             <p className="text-center text-muted-foreground">
               Compare prices across multiple stores to find the absolute best deal.
             </p>
